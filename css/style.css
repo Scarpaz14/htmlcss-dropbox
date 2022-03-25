@@ -95,6 +95,9 @@ li{
     border:none;
     font-weight: 600;
 }
+.btn-free{
+    font-size: 18px;
+}
 
 
 
@@ -198,7 +201,7 @@ li{
 .user, .memory, .function{
     font-size: 15px;  
 }
-.btn-free{
+.btn-try{
     margin: 40px 0;
     text-align: center; 
 }
@@ -213,13 +216,13 @@ hr{
     width: 30%;
 }
  
-li{
+.list > li{
     text-decoration: none;
     padding: 20px 0 ;
     font-size: 15px;
 }
 
-ul {
+.list > ul {
 list-style-type: none;
 }
   
