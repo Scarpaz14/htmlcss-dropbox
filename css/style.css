@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------HEADER  */
+
+.header-high{
+    font-size:0;
+}
+/* contenitore di sinistra  */
+.container-left,.container-right{
+    width: 50%;
+    padding:20px;
+    display: inline-block;
+}
+
+.logo, .nav-left{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-left{
+    margin-left: 50px;
+    font-size:15px;
+}
+
+.nav-left ul li {
+    display: inline-block; 
+}
+
+.nav-left li a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    padding-right: 50px;
+}
+
+
+/* contenitore di destra */
+.container-right{
+    text-align: right;
+}
+
+.nav-right{
+    display: inline-block;
+    vertical-align: middle;
+    font-size:15px;
+}
+
+.nav-right ul li {
+    display: inline-block;
+}
+
+.nav-right li a{
+    text-decoration: none;
+    color: black;
+}
+
+.login{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*---------------- /HEADER  */
+
+/* ------------PULSANTI */
+
+.btn{
+    background-color: #0061ff;
+    color:white;
+    padding: 5px 15px;
+    border:none;
+}
