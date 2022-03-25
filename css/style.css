@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-/*----------------HEADER  */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*HEADER----------------------------  */
 
 .header-high{
     font-size:0;
@@ -23,6 +27,7 @@
 .nav-left{
     margin-left: 50px;
     font-size:15px;
+    font-weight: 500;
 }
 
 .nav-left ul li {
@@ -57,6 +62,7 @@ li{
 .nav-right li a{
     text-decoration: none;
     color: black;
+    font-weight: 500;
 }
 
 .login{
@@ -64,13 +70,72 @@ li{
     vertical-align: middle;
 }
 
-/*---------------- /HEADER  */
+/*/HEADER------------------------  */
 
-/* ------------PULSANTI */
+/*PULSANTI----------------------- */
 
 .btn{
     background-color: #0061ff;
     color:white;
-    padding: 5px 15px;
+    padding: 10px 18px;
     border:none;
+}
+
+.btn-free{
+    font-size: 20px;
+}
+
+
+/*HERO SECTION ------------------ */
+
+#hero{
+    background-color:#b4d0e7 ;
+}
+
+.big-container{
+    max-width: 1300px;
+    margin:auto;
+    padding: 50px 0;
+}
+
+.title{
+    font-size: 50px;
+    text-align: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-left{
+    float: left;
+    width:35%;
+    padding-right:20px;  
+}
+
+.col-right{
+    float: left;
+    width:65%;
+}
+
+.col-hero{
+    margin-top:50px;
+    position: relative;
+    margin-bottom: -150px;
+}
+
+.jumbo{
+    object-fit: cover;
+    width:100%;
+}
+
+.free-trial{
+    padding: 20px 0;
+}
+
+.fa-solid{
+    font-size:50px;
+    margin-top: 30px;
 }

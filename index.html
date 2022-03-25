@@ -5,42 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header>
         <!-- contenitore di sinistra  -->
         <div class="header-high">
-        <div class="container-left">
-            <div class="logo">
-                <img src="img/logo-small.png" alt="logo-dropbox">
+            <div class="container-left">
+                <div class="logo">
+                    <img src="img/logo-small.png" alt="logo-dropbox">
+                </div>
+                <nav class="nav-left">
+                    <ul>
+                        <li> <a href="">Perchè Dropbox?</a></li>
+                        <li> <a href="">Funzioni</a></li>
+                        <li> <a href="">Piani e prezzi</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="nav-left">
-                <ul>
-                    <li> <a href="">Perchè Dropbox?</a></li>
-                    <li> <a href="">Funzioni</a></li>
-                    <li> <a href="">Piani e prezzi</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- /contenitore di sinistra  -->
-        <!-- contenitore di destra  -->
-         <div class="container-right">
-            <nav class="nav-right">
-                <ul>
-                    <li> <a href="">Supporto</a></li>
-                    <li> <a href="">Contatta l'ufficio vendite</a></li>
-                    <li> <a href="">Acccedi</a></li>
-                </ul>
-            </nav>
-            <div class="login">
-                <button class="btn">Inizia</button>
+            <!-- /contenitore di sinistra  -->
+            <!-- contenitore di destra  -->
+            <div class="container-right">
+                <nav class="nav-right">
+                    <ul>
+                        <li> <a href="">Supporto</a></li>
+                        <li> <a href="">Contatta l'ufficio vendite</a></li>
+                        <li> <a href="">Acccedi</a></li>
+                    </ul>
+                </nav>
+                    <div class="login">
+                        <button class="btn">Inizia</button>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
        <!-- /contenitore di destra  -->
-
-    </header>
-    
-</body>
+        </header>
+        <main>
+            <section id="hero">
+            <div class="big-container">
+                <div class="title">
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                </div>
+                <div class="col-hero">
+                    <div class="clearfix">
+                        <div class="col-left">
+                            <p>
+                                Finalmente tutti i tuoi strumenti, contenuti e
+                                collaboratori sono accessibili dallo stesso posto.
+                                Dropbox Business è più di uno spazio di
+                                archiviazione sicuro: è un modo intelligente e
+                                integrato per ottimizzare il flusso di lavoro esistente
+                            </p>
+                            <div class="free-trial">
+                                <button class="btn btn-free">Inizia la tua prova gratuita</button>
+                            </div>
+                            <div> Annulla in qualsiasi momento</div>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                        <div class="col-right">
+                            <img class="jumbo" src="img/jumbo.png" alt="hero">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </main>   
+    </body>
 </html>
