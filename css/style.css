@@ -309,3 +309,22 @@ list-style-type: none;
 
 /* /SEZIONE TROVA PARTNER ------------- */
 
+/* SEZIONE DROPBOX BUSINESS  */
+
+.foto{
+    width: 100%;
+    margin:30px 0;
+}
+
+.business-title{
+    font-size:25px;
+}
+
+.business-mini-title{
+    font-size:18px;
+    margin-bottom: 30px;
+}
+
+.row-partner-bottom{
+    margin-bottom: 50px;
+}
