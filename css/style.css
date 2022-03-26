@@ -309,7 +309,7 @@ list-style-type: none;
 
 /* /SEZIONE TROVA PARTNER ------------- */
 
-/* SEZIONE DROPBOX BUSINESS  */
+/* SEZIONE DROPBOX BUSINESS------------ */
 
 .foto{
     width: 100%;
@@ -328,3 +328,15 @@ list-style-type: none;
 .row-partner-bottom{
     margin-bottom: 50px;
 }
+
+/* /SEZIONE DROPBOX BUSINESS------------ */
+
+/* SEZIONE NUMERO PERSONE SU DROPBOX -------- */
+
+.number-title{
+    font-size:25px;
+    width: 68%;
+    margin-top: 200px;
+    margin-bottom:20px;
+}
+/* /SEZIONE NUMERO PERSONE SU DROPBOX -------- */
