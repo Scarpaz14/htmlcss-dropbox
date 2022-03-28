@@ -340,3 +340,88 @@ list-style-type: none;
     margin-bottom:20px;
 }
 /* /SEZIONE NUMERO PERSONE SU DROPBOX -------- */
+
+/* SEZIONE MEMBRI DROPBOX -------------- */
+
+.large-container{
+    width: 100%;
+    min-height: 500;
+    margin-top:50px;
+}
+
+.col-sx, .col-dx{
+    float: left;
+    height: 30vw;
+    width: 30vw; 
+}
+
+.col-middle{
+    float: left;
+    background-color: #f5f5f5;
+    height: 30vw;
+    width: calc(40vw - 17px);
+    padding: 50px;
+}
+
+.square{
+    width: 50%;
+    height: 15vw;
+    background-color: green;
+    position: relative;
+    float: left;
+    
+}
+
+.foto{
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square-designit{
+    background-color:#a2d39b;
+    border:15px solid #d0e9cd;
+}
+
+.square-florida{
+    background-color:#0093ce;
+}
+
+.square-arizona{
+    background-color:#61082b;
+}
+
+.square-tops{
+    background-color:#ff1c1c;
+}
+
+.middle-logo{
+    width: 30%;
+}
+
+.autor{
+    margin:50px 0;
+}
+
+.second-hr{
+    margin:50px 0;
+    width:20%
+}
+
+.square-bicycle{
+    background-color:#d5001f;
+}
+
+.square-hearst{
+    background-color:#b4d0e7;
+}
+.square-lonely{
+    background-color: #0d2481;
+}
+
+.square-clear{
+    background-color: #ffd830;
+}
